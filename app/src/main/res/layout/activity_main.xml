@@ -89,16 +89,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="61dp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="400px"
-            android:layout_height="wrap_content"
+            android:layout_width="166dp"
+            android:layout_height="60dp"
             android:backgroundTint="@color/blue"
-            android:text="@string/guzik2" />
+            android:text="@string/guzik2"
+            android:textColorHighlight="@color/fiolet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.604" />
 
         <LinearLayout
             android:layout_width="25dp"
@@ -107,8 +114,8 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="400px"
-            android:layout_height="49dp"
+            android:layout_width="155dp"
+            android:layout_height="61dp"
             android:backgroundTint="@color/blue"
             android:text="@string/guzik"
             android:textColorHighlight="@color/fiolet"
