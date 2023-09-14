@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="guzik">GUZIK</string>
+    <string name="guzik">Register</string>
+    <string name="nazwa">nazwa</string>
+    <string name="email">Your login</string>
+    <string name="haslo">Password</string>
+    <string name="guzik2">Login</string>
+    <string name="check">Show password</string>
 </resources>
